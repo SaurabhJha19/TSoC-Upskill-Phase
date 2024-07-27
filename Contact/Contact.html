@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    <style>
+        .FAQ{width: 100%; margin: 7% 0 10% 0;}
+        .FAQ h1{font-size: 36px; color: #4F5B67; border: none;}
+        .FAQ p.head{font-size: 18px; color: #BFA054; width: 50%;}
+        body{background-image: url(./bg.jfif);}
+        html {
+             scroll-behavior: smooth;
+            }
+			/* width */
+			::-webkit-scrollbar {
+			  width: 8px;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+			  box-shadow: inset 0 0 0px #000000; 
+			  border-radius: 0px;
+			  background-color:whitesmoke;
+			}
+			 
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+			  background: gray; 
+			  border-radius: 0px;
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+			  background: #a19b9b; 
+			  }
+              .contact-box{display: flex; width: 80%; margin: 0 auto;}
+              .form{background: #fff; width: 100%; padding: 5%; border-radius: 25px;}
+              .form h2{color: #9A2143; font-size: 20px;}
+              .form input{border-radius: 10px; background: #FCFCFC; margin-right: 5%; width: 50%; border: none;}
+              .form textarea{border-radius: 10px; background: #FCFCFC; margin-right: 5%; width: 100%; height: 50%; border: none;}
+              .rbx{width: 40%; margin: auto 0;}
+              .form button{background: #E5E5E5; padding: 10px 25px; color: white; border-radius: 15px;}
+              @media only screen and (max-width: 1200px) {
+                .contact-box{display: flex; flex-wrap: wrap-reverse; justify-content: center;}
+                .form-upper{flex-wrap: wrap;}
+                .form input{ margin-bottom: 5%; width: 100%;}
+                .rbx{width: 60%; margin: 30px 0;}
+                 }
+                 @media only screen and (max-width: 600px){
+                     .contact-box{width: 100% ;}
+                 }
+
+    </style>
+</head>
+<body>
+    <div class="FAQ">
+        <center>
+            <img src="./em2.png" class="wed" style="position: absolute; left: 0; top: 0;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="./side.png" style="margin-right: 30px; height: 20%;">
+                <h1>Contact Us</h1>
+                <img src="./side2.png" style="margin-left: 30px; height: 20%;">
+            </div><br>
+            <p class="head">Keep in touch in case you need more information</p>
+            <br><br><br>
+        </center>
+        <div class="contact-box">
+            <div class="rbx">
+                <div class="mail" style="display: flex; align-items: center;">
+                    <img src="./embx.png" style="margin-right: 1%;">
+                    <div class="rbxtxt">
+                        <p style="color: #9A2143;">Email</p>
+                        <p>Memorylane.admin@gmail.com</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="mail" style="display: flex; align-items: center;">
+                    <img src="./pmbx.png" style="margin-right: 1%;">
+                    <div class="rbxtxt">
+                        <p style="color: #9A2143;">Phone</p>
+                        <p>+91 2222777777,  +91 8888222222</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lbx" style="width: 70%;">
+                <div class="form">
+                    <h2>Write To Us</h2>
+                    <br>
+                    <div class="form-upper" style="display: flex;">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    </div>
+                    <br>
+                    <textarea rows="10" placeholder="Your Message..."></textarea>
+                    <button>Send Message &rarr;</button>
+                </div>
+            </div>
+        </div>
+        <img src="./em.png" style="margin-right: 1%; position: absolute; right: 20px;">
+       
+        
+    </div> 
+</body>
+</html>
